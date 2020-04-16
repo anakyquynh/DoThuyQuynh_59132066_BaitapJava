@@ -7,7 +7,7 @@ package Baitap4;
 
 /**
  *
- * @authorQuynh
+ * @author Quynh
  */
 public class XeNoiThanh extends ChuyenXe
 {
@@ -37,6 +37,11 @@ public class XeNoiThanh extends ChuyenXe
                 + "Doanh thu: " + Doanhthu + ", "
                 + "Tuyến: " + SoTuyen + ", "
                 + "Số km đi được: " + SoKmDiDuoc;
+    }
+
+    @Override
+    public String getThongtin() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }

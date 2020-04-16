@@ -39,4 +39,9 @@ public class XeNgoaiThanh extends ChuyenXe
                 + "Nơi đến: " + NoiDen + ", "
                 + "Số ngày đi được: " + SoNgayDiDuoc;
     }
+
+    @Override
+    public String getThongtin() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
